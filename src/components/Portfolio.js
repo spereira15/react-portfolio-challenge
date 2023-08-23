@@ -5,21 +5,21 @@ const projects = [
     {
       title: 'Personal Portfolio',
       description: 'Designed and developed a personal portfolio using React.',
-      imageSrc: 'project1-image-url.jpg',
+      imageSrc: 'react-portfolio-project.jpg',
       deployedLink: 'https://spereira15.github.io/react-portfolio/',
       githubLink: 'https://github.com/spereira15/react-portfolio'
     },
     {
       title: 'Tech Blog',
       description: 'Full-stack tech blog application.',
-      imageSrc: 'project2-image-url.jpg',
+      imageSrc: 'tech-blog-project.jpg',
       deployedLink: 'https://spereira15-tech-blog-8ddef4fd17d0.herokuapp.com/',
       githubLink: 'https://github.com/spereira15/tech-blog'
     },
     {
       title: 'KaptionKingdom',
       description: 'Quote generator web application.',
-      imageSrc: 'project2-image-url.jpg',
+      imageSrc: 'kaption-kingdom-project.jpg',
       deployedLink: 'https://supremecosta.github.io/Kaption-Kingdom/',
       githubLink: 'https://github.com/SupremeCosta/Kaption-Kingdom'
     },

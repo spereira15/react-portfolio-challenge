@@ -12,7 +12,7 @@ const About = () => {
           <h2>About Me</h2>
             <p>
               Hi, I'm Simon Pereira. I'm a passionate Full-Stack Software Engineer with a love for building web applications.
-              This is a brief description of myself and my skills.
+              I am based in Miami.
             </p>
           </div>
         </div>
