@@ -1,0 +1,18 @@
+section {
+  min-height: calc(100vh - 172px);
+  background-color: #508991;
+}
+
+header {
+  background-color: #75dddd;
+}
+
+footer {
+  background-color: #172a3a;
+}
+
+.custom-img {
+  width: 300px;
+  height: auto; 
+}
+

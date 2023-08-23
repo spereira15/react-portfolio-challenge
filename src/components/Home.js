@@ -1,0 +1,21 @@
+import React from 'react';
+
+const Home = () => {
+  return (
+    <section id="home" className="py-5 text-center d-flex justify-content-center align-items-center">
+      <div className="container">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-4">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is the home page of my portfolio website. Feel free to explore!</p>
+          </div>
+          <div className="col-md-4">
+            <img src="/welcome.svg" alt="welcome" className="img-fluid custom-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Home;
