@@ -1,34 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <NavLink to="/" exact className="nav-link" activeClassName="active">
             Home
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link">
+          <NavLink to="/about" className="nav-link" activeClassName="active">
             About
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/portfolio" className="nav-link">
+          <NavLink to="/portfolio" className="nav-link" activeClassName="active">
             Portfolio
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/contact" className="nav-link">
+          <NavLink to="/contact" className="nav-link" activeClassName="active">
             Contact
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/resume" className="nav-link">
+          <NavLink to="/resume" className="nav-link" activeClassName="active">
             Resume
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>
