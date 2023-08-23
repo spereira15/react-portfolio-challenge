@@ -3,20 +3,26 @@ import Project from './Project';
 
 const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1.',
+      title: 'Personal Portfolio',
+      description: 'Designed and developed a personal portfolio using React.',
       imageSrc: 'project1-image-url.jpg',
-      deployedLink: 'https://project1-deployed-link.com',
-      githubLink: 'https://github.com/username/project1'
+      deployedLink: 'https://spereira15.github.io/react-portfolio/',
+      githubLink: 'https://github.com/spereira15/react-portfolio'
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2.',
+      title: 'Tech Blog',
+      description: 'Full-stack tech blog application.',
       imageSrc: 'project2-image-url.jpg',
-      deployedLink: 'https://project2-deployed-link.com',
-      githubLink: 'https://github.com/username/project2'
+      deployedLink: 'https://spereira15-tech-blog-8ddef4fd17d0.herokuapp.com/',
+      githubLink: 'https://github.com/spereira15/tech-blog'
     },
-
+    {
+      title: 'KaptionKingdom',
+      description: 'Quote generator web application.',
+      imageSrc: 'project2-image-url.jpg',
+      deployedLink: 'https://supremecosta.github.io/Kaption-Kingdom/',
+      githubLink: 'https://github.com/SupremeCosta/Kaption-Kingdom'
+    },
   ];
   
   const Portfolio = () => {
