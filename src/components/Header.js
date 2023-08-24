@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const Header = ({ setCurrentPage }) => {
+const Header = ({ setCurrentPage, currentPage }) => {
   return (
     <header className="text-white py-3">
       <div className="container">
@@ -18,8 +18,7 @@ const Header = ({ setCurrentPage }) => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {/* Pass setCurrentPage down to Navigation */}
-          <Navigation setCurrentPage={setCurrentPage} />
+          <Navigation setCurrentPage={setCurrentPage} currentPage={currentPage} />
         </nav>
       </div>
     </header>
