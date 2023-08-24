@@ -6,7 +6,7 @@ const Project = ({ title, description, imageSrc, deployedLink, githubLink }) => 
       <div className="card h-100">
       <img
           className="card-img-top"
-          src={imageSrc}
+          src={"./react-portfolio-challenge/" + imageSrc}
           alt={title}
           style={{
             height: '134px',       

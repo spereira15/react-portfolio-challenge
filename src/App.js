@@ -18,11 +18,11 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/react-portfolio-challenge/" element={<Home />} />
+          <Route path="/react-portfolio-challenge/about" element={<About />} />
+          <Route path="/react-portfolio-challenge/portfolio" element={<Portfolio />} />
+          <Route path="/react-portfolio-challenge/contact" element={<Contact />} />
+          <Route path="/react-portfolio-challenge/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>
