@@ -39,3 +39,7 @@ footer {
 .navbar-nav .nav-link:hover {
   color: #007bff;
 }
+
+.tech-h4 {
+  margin-bottom: 2rem
+}

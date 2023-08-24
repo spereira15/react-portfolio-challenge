@@ -23,6 +23,27 @@ const projects = [
       deployedLink: 'https://supremecosta.github.io/Kaption-Kingdom/',
       githubLink: 'https://github.com/SupremeCosta/Kaption-Kingdom'
     },
+    {
+      title: 'Note Taker',
+      description: 'Full-stack application that allows user to create, store and delete notes.',
+      imageSrc: 'note-taker-project.jpg',
+      deployedLink: 'https://note-taker-simon-pereira-8b1fad02e781.herokuapp.com/',
+      githubLink: 'https://github.com/spereira15/note-taker'
+    },
+    {
+      title: 'Work Day Scheduler',
+      description: 'Work Day Scheduler built using JavaScript, jQuery and DayJS.',
+      imageSrc: 'work-day-scheduler-project.jpg',
+      deployedLink: 'https://spereira15.github.io/work-day-scheduler/',
+      githubLink: 'https://github.com/spereira15/work-day-scheduler'
+    },
+    {
+      title: 'Password Generator',
+      description: 'This is a password generator built on JavaScript.',
+      imageSrc: 'password-generator-project.jpg',
+      deployedLink: 'https://spereira15.github.io/javascript-password-generator/',
+      githubLink: 'https://github.com/spereira15/javascript-password-generator'
+    },
   ];
   
   const Portfolio = () => {
