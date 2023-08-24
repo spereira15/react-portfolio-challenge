@@ -10,7 +10,7 @@ const Home = () => {
             <p>Feel free to explore!</p>
           </div>
           <div className="col-md-4">
-            <img src="/welcome.svg" alt="welcome" className="img-fluid custom-img" />
+            <img src="./welcome.svg" alt="welcome" className="img-fluid custom-img" />
           </div>
         </div>
       </div>
