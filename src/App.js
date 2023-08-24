@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
@@ -13,20 +12,31 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('home'); // Default to 'home'
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'home':
+        return <Home />;
+      case 'about':
+        return <About />;
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return <Home />;
+    }
+  };
+
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/react-portfolio-challenge/" element={<Home />} />
-          <Route path="/react-portfolio-challenge/about" element={<About />} />
-          <Route path="/react-portfolio-challenge/portfolio" element={<Portfolio />} />
-          <Route path="/react-portfolio-challenge/contact" element={<Contact />} />
-          <Route path="/react-portfolio-challenge/resume" element={<Resume />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Header setCurrentPage={setCurrentPage} />
+      {renderPage()}
+      <Footer />
+    </div>
   );
 }
 

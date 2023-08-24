@@ -1,34 +1,33 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-const Navigation = () => {
+const Navigation = ({ setCurrentPage }) => {
   return (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <NavLink to="/react-portfolio-challenge" exact className="nav-link" activeClassName="active">
+          <a href="#" className="nav-link" onClick={() => setCurrentPage('home')}>
             Home
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio-challenge/about" className="nav-link" activeClassName="active">
+          <a href="#" className="nav-link" onClick={() => setCurrentPage('about')}>
             About
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio-challenge/portfolio" className="nav-link" activeClassName="active">
+          <a href="#" className="nav-link" onClick={() => setCurrentPage('portfolio')}>
             Portfolio
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio-challenge/contact" className="nav-link" activeClassName="active">
+          <a href="#" className="nav-link" onClick={() => setCurrentPage('contact')}>
             Contact
-          </NavLink>
+          </a>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio-challenge/resume" className="nav-link" activeClassName="active">
+          <a href="#" className="nav-link" onClick={() => setCurrentPage('resume')}>
             Resume
-          </NavLink>
+          </a>
         </li>
       </ul>
     </div>
