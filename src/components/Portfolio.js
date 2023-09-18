@@ -17,11 +17,11 @@ const projects = [
       githubLink: 'https://github.com/spereira15/tech-blog'
     },
     {
-      title: 'KaptionKingdom',
-      description: 'Quote generator web application.',
+      title: 'ShelfSwap',
+      description: 'Where book lovers unite to swap their favorite reads.',
       imageSrc: 'kaption-kingdom-project.jpg',
-      deployedLink: 'https://supremecosta.github.io/Kaption-Kingdom/',
-      githubLink: 'https://github.com/SupremeCosta/Kaption-Kingdom'
+      deployedLink: 'https://shelf-swap-425acc537cee.herokuapp.com/',
+      githubLink: 'https://github.com/k-pineda/ShelfSwap'
     },
     {
       title: 'Note Taker',
